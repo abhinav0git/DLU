@@ -4,11 +4,9 @@ import { Dashboard } from './Dashboard'
 function App() {
 
   return (
-    <>
-      <div className='box'>
-        <Dashboard />
-      </div>
-    </>
+    <div className='p-0 m-0'>
+      <Dashboard />
+    </div>
   )
 }
 
